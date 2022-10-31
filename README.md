@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Learning Objectives
+- Set up a React app.
+- Use React documentation.
+
 ## Available Scripts
 
 In the project directory, you can run:
