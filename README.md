@@ -1,37 +1,39 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Create React App [Math Magicians: Setup]
 
 ## Learning Objectives
 - Set up a React app.
 - Use React documentation.
 
-## Available Scripts
+## Description
+This is the first project of the Math Magicians application. Setting up the environment and tools needed to develop a React application.
 
-In the project directory, you can run:
+## General requirements
+- No [linter errors](https://github.com/microverseinc/linters-config).
+- Correct [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/gitflow.md).
+- Professional work [documentation](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/professional_repo_rules.md).
+- JavaScript [best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/javascript_best_practices.md)
 
+## Built With
+- React
+
+### Setup
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo 
+[Live Demo Link](https://livedemo.com)
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `npm run build`
+### Install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
 
 ### `npm run eject`
 
