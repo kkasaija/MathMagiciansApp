@@ -1,27 +1,241 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --fontSize: 20px;
+  --paddings: 0.03rem;
+  --borders: 0;
+  --color1: #9e9e9e;
+  --color2: #e0e0e0;
+  --color3: #d3d3d3;
+  --color4: #f9982f;
+  --fontColor: #fff;
+  --wids: 0;
+  --gaps: 1px;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.calculator {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.input-output {
+  height: 60px;
+  background-color: var(--color1);
+  color: var(--fontColor);
+  font-size: 25px;
+  text-align: right;
+  padding: var(--paddings) 5px;
+  border: var(--borders);
+}
+
+.div-line1 {
+  display: flex;
+  height: 60px;
+  padding: var(--paddings);
+  border: var(--borders);
+  gap: var(--gaps);
+}
+
+.div-line1 .ac-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line1 .plus-minus-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line1 .percent-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line1 .divide-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color4);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line2 {
+  display: flex;
+  height: 60px;
+  padding: var(--paddings);
+  border: var(--borders);
+  gap: var(--gaps);
+}
+
+.div-line2 .seven-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line2 .eight-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line2 .nine-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line2 .multiply-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color4);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line3 {
+  display: flex;
+  height: 60px;
+  font-size: var(--fontSize);
+  padding: var(--paddings);
+  border: var(--borders);
+  gap: var(--gaps);
+}
+
+.div-line3 .four-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line3 .five-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line3 .six-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line3 .subtract-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color4);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line4 {
+  display: flex;
+  height: 60px;
+  padding: var(--paddings);
+  border: var(--borders);
+  gap: var(--gaps);
+}
+
+.div-line4 .one-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line4 .two-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line4 .three-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line4 .plus-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color4);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line5 {
+  display: flex;
+  height: 60px;
+  padding: var(--paddings);
+  border: var(--borders);
+  gap: var(--gaps);
+}
+
+.div-line5 .zero-btn {
+  flex: 2.1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line5 .fullstop-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color3);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+.div-line5 .equals-btn {
+  flex: 1;
+  font-size: var(--fontSize);
+  background-color: var(--color4);
+  border-width: var(--wids);
+  cursor: pointer;
+}
+
+button:active {
+  color: var(--color1);
+  box-shadow: 0 0 1px 1px;
+  border-spacing: 2px;
+  animation: mymove 5s infinite;
 }

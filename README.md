@@ -5,7 +5,9 @@
 ### Learning Objectives
 - Set up a React app.
 - Use React documentation.
-
+- Use React components.
+- Use React props.
+- Use React state.
 ### Description
 This is the first project of the Math Magicians application. Setting up the environment and tools needed to develop a React application.
 
@@ -24,13 +26,22 @@ This is the first project of the Math Magicians application. Setting up the envi
 - For [MacOS](https://github.com/microverseinc/curriculum_support_resources/tree/main/react_and_redux/03_react_setup_MacOS) users.
 - For [Ubuntu](https://github.com/microverseinc/curriculum_support_resources/tree/main/react_and_redux/04_react_setup%20on%20wsl) users.
 
+### Milestone Reached
+- [x] Set up `React` App
+- [x] Creatd a directory called components.
+- [x] Inside components, created a new Calculator.js file.
+- [x] In Calculator.js, created a React component that matches this design:
+<p align="center">
+  <img src="./calculator.png" alt="Calculator" width="300px" />
+</p>
+
 ### `npm start`
 
 Runs the app in the development mode.\ Or
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Live Demo 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 ## Authors
 
