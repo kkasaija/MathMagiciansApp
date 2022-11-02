@@ -48,7 +48,7 @@ Runs the app in the development mode.\ Or
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Live Demo 
-[Live Demo Link]()
+[Live Demo Link](https://kasaija-kenneth.github.io/MathMagiciansApp/events/public)
 
 ## Authors
 
@@ -69,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Osong Agberndifor] (https://www.loom.com/share/c97732a88b604a4cac489f8af7f1e2e9) whose loom walk through video clip made the installation much easier.
+- [Osong Agberndifor](https://www.loom.com/share/c97732a88b604a4cac489f8af7f1e2e9) whose loom walk through video clip made the installation much easier.
 
 ## 📝 License
 
