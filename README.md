@@ -48,7 +48,7 @@ Runs the app in the development mode.\ Or
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Live Demo 
-[Live Demo Link](https://kasaija-kenneth.github.io/MathMagiciansApp/events/public)
+[Live Demo Link](https://github.com/Kasaija-Kenneth/MathMagiciansApp/tree/events)
 
 ## Authors
 
