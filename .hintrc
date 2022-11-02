@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "development"
+    ],
+    "hints": {
+        "compat-api/css": ["off", {
+            "ignore": ["border-radius", "box-lines", "display", "margin"]
+        }]
+    }
+}
