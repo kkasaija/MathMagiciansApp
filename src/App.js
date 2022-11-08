@@ -1,14 +1,27 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Quotes from './components/Quote';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
 
-class App extends React.PureComponent {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Basic Calculator</h1>
-        </header>
-        <Calculator />
+      <div>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/quotes" element={<Quotes />} />
+          </Routes>
+        </Router>
       </div>
     );
   }

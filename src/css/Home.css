@@ -1,0 +1,21 @@
+.homeParagraph {
+  padding: 2%;
+  font-size: 25px;
+}
+
+.paragraph {
+  padding: 2%;
+  font-size: 20px;
+}
+
+p {
+  font-size: 50px;
+  padding: 3%;
+  display: flex;
+  color: rgb(185, 134, 134);
+}
+
+h2 {
+  padding-left: 3%;
+  font-size: 30px;
+}
