@@ -4,7 +4,7 @@ import '../css/Quote.css';
 class Quotes extends React.PureComponent {
   render() {
     return (
-      <>
+      <div>
         <main className="quotesParagraph">
           <p className="paragraphQuote">
             Without mathematics, there’s nothing you can do. Everything around you is mathematics.
@@ -12,7 +12,7 @@ class Quotes extends React.PureComponent {
             — Shakuntala Devi, Indian writer and mental calculator
           </p>
         </main>
-      </>
+      </div>
     );
   }
 }
