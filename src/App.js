@@ -1,8 +1,9 @@
+/* eslint-disable import/extensions */
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
-import Quotes from './components/Quote.jsx';
-import NavBar from './components/NavBar.jsx';
+import Quotes from './components/Quote';
+import NavBar from './components/NavBar';
 import Home from './components/Home';
 
 class App extends React.Component {
