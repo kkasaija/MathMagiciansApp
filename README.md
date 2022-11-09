@@ -38,6 +38,8 @@ In this project, I added the logic needed to make the Calculator component devel
 - [x] Copied the files [calculate.js](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/calculate.js) and [operate.js](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/code-samples/operate.js) into a `logic/` directory in the project.
 - [x] Installed [big.js](https://www.npmjs.com/package/big-js) dependency library.
 - [x] Applied `React hooks` to the Calculator.js component.
+- [x] Used React Router.
+- [x] Used styles in a React app.
 
 <p align="center">
   <img src="./calculator.png" alt="Calculator" width="300px" />
