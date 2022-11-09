@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <main
+    className="quotesParagraph"
+  >
+    <p
+      className="paragraphQuote"
+    >
+      Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers. — Shakuntala Devi, Indian writer and mental calculator
+    </p>
+  </main>
+</div>
+`;
